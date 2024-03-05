@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Dimitri"/>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div class="container">
+    <h3 id="typeincident"></h3>
+    <img src="img/incident.png" class="img-fluid" alt="Image" width="300" height="200">
+    <!-- Localisation -->
+    <div id="localisation" class="form-group">
+        <label for="localisation">Localisation</label>
+        <p class="form-control" rows="3" readonly>Contenu de localisation provenant de la base de données</p>
+    </div>
+    <!-- Date -->
+    <div id="Date" class="form-group">
+        <label for="Date">Date</label>
+        <p class="form-control" rows="3" readonly>Contenu de date provenant de la base de données</p>
+    </div>
+
+    <!-- Description -->
+    <h3>Description</h3>
+    <textarea class="form-control" rows="3" readonly>Contenu de la description provenant de la base de données</textarea>
+    <!-- Traiter -->
+    <button type="button" class="btn btn-primary" id="traiter">Traiter</button>
+</div>
+
+
+
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fastclick.min.js"></script>
+</body>
+</html>
+
+<script src="app.js"></script>

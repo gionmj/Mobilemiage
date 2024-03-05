@@ -1,0 +1,43 @@
+:root {
+  --bs-background: #FD842D;
+    --bs-text: #fff;
+}
+
+body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .container-fluid {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      position: relative;
+    }
+    .image-container {
+      height: 40%;
+      background: url('img/incident.jpg');
+      background-size: cover;
+    }
+    .icon-circle {
+      position: absolute;
+      top: 16px;
+      width: 40px;
+      height: 40px;
+      background-color: #ccc;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-back {
+      left: 16px;
+    }
+    .icon-search {
+      right: 16px;
+    }
+    .icon {
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+    }
+
